@@ -1,0 +1,1 @@
+ALTER TABLE 'table_name' MODIFY 'column_name' 'type_of_data';
