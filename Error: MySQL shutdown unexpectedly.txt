@@ -1,4 +1,4 @@
-XAMPP Control Panel:
+XAMPP: Error: MySQL shutdown unexpectedly / Backup e restauração
 
 Error: MySQL shutdown unexpectedly.
 This may be due to a blocked port, missing dependencies,	
