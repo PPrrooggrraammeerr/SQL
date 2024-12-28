@@ -4,13 +4,13 @@ CREATE DATABASE prontuario_vet;
 
 USE prontuario_vet;
 
-CREATE TABLE especie(
+CREATE TABLE especie (
     cd_especie INT,
     nm_especie VARCHAR(50),
     CONSTRAINT pk_especie PRIMARY KEY(cd_especie)
 );
 
-CREATE TABLE animal(
+CREATE TABLE animal (
     cd_animal INT,
     nm_animal VARCHAR(100),
     cd_especie INT,
@@ -18,7 +18,7 @@ CREATE TABLE animal(
     CONSTRAINT fk_animal_especie FOREIGN KEY(cd_especie) REFERENCES especie(cd_especie)
 );
 
-CREATE TABLE tratamento(
+CREATE TABLE tratamento (
     cd_tratamento INT,
     nm_tratamento VARCHAR(100),
     ds_tratamento TEXT,
