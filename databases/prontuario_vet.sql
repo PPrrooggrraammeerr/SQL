@@ -49,6 +49,6 @@ INSERT INTO tratamento VALUES (103, 'Castração', 'Esterilização');
 
 INSERT INTO prontuario VALUES (1, 101, '2024-08-30 11:30:00', 'Renovar em 1 ano');
 INSERT INTO prontuario VALUES (1, 102, '2024-08-30 11:35:00', 'Houve reação alérgica e foi administrad Apoquel 6g');
-INSERT INTO prontuario VALUES (2, 101, '2024-09-02 16:30:00', null);
+INSERT INTO prontuario VALUES (2, 101, '2024-09-02 16:30:00', NULL);
 INSERT INTO prontuario VALUES (2, 103, '2024-02-10', 'Demorou para voltar da anerstesia, mas nada preocupante.');
-INSERT INTO prontuario VALUES (3, 102, '2024-03-01', null);
+INSERT INTO prontuario VALUES (3, 102, '2024-03-01', NULL);
