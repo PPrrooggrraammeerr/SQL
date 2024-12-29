@@ -35,13 +35,19 @@ CREATE TABLE prontuario (
     CONSTRAINT fk_prontuario_tratamento FOREIGN KEY(cd_tratamento) REFERENCES tratamento(cd_tratamento)
 );
 
-INSERT INTO especie VALUES (1, 'Cachorro');
-INSERT INTO especie VALUES (2, 'Gato');
-INSERT INTO especie VALUES (3, 'Coelho');
+INSERT INTO especie VALUES (1, 'Buldog');
+INSERT INTO especie VALUES (2, 'Dálmata');
+INSERT INTO especie VALUES (3, 'Tabby Listrado');
+INSERT INTO especie VALUES (4, 'Beagle');
+INSERT INTO especie VALUES (5, 'Californiano');
+INSERT INTO especie VALUES (6, 'Fox Paulistinha');
 
-INSERT INTO animal VALUES (1, 'Meg', 1);
-INSERT INTO animal VALUES (2, 'Luna', 2);
-INSERT INTO animal VALUES (3, 'Bolinha', 3);
+INSERT INTO animal VALUES (1, 'Brutus', 1);
+INSERT INTO animal VALUES (2, 'Flocos', 2);
+INSERT INTO animal VALUES (3, 'Luna', 3);
+INSERT INTO animal VALUES (4, 'Meg', 4);
+INSERT INTO animal VALUES (5, 'Rico', 5);
+INSERT INTO animal VALUES (6, 'Tico', 6);
 
 INSERT INTO tratamento VALUES (101, 'Vacina Antirrábica', 'Proteção contra raiva');
 INSERT INTO tratamento VALUES (102, 'Vermifugação', 'Controle de vermes intestinais');
